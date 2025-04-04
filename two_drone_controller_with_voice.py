@@ -9,7 +9,7 @@ import google.generativeai as genai
 
 import os
 os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
-os.environ["GEMINI_API_KEY"] = "AIzaSyB1KA8xtyD-sXlRlkQGb1VbxWGVKH-3FtM"
+os.environ["GEMINI_API_KEY"] = ""
 
 genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 
